@@ -1473,7 +1473,7 @@ headerbar {
 
   .tiled &, .tiled &:backdrop,
   .maximized &, .maximized &:backdrop {
-    // border-radius: 0; // squared corners when the window is max'd or tiled
+    border-radius: 0; // squared corners when the window is max'd or tiled
     box-shadow: none;
   }
 
@@ -1977,6 +1977,10 @@ menubar,
       color: transparentize($header_fg, 0.6);
     }
   }
+}
+
+menu {
+	border-bottom-color: rgb(100,0,255);
 }
 
 .context-menu,
