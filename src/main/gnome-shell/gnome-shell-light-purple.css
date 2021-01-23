@@ -3004,7 +3004,7 @@ StEntry StLabel.hint-text {
 #panel .panel-button {
   -natural-hpadding: 8px;
   -minimum-hpadding: 8px;
-  font-weight: bold;
+  font-weight: 500;
   color: white;
   transition-duration: 150ms;
   border-radius: 6px;
@@ -3341,6 +3341,7 @@ StEntry StLabel.hint-text {
 #appMenu {
   spinner-image: url("process-working.svg");
   spacing: 4px;
+  font-weight: 800;
 }
 
 #appMenu .label-shadow {
