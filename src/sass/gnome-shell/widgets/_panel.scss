@@ -65,7 +65,7 @@ $shell_panel_bg: if($trans == 'true', $panel_bg, rgba($panel_bg, 0.95));
   .panel-button {
     -natural-hpadding: 8px;
     -minimum-hpadding: 8px;
-    font-weight: bold;
+    font-weight: 500;
     color: $panel_fg;
     transition-duration: $longer_duration;
     border-radius: $bt_radius;
