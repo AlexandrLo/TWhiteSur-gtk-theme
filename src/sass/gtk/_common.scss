@@ -1964,6 +1964,8 @@ menubar,
 
     > window.popup.background.csd > menu {
       // border-radius: 0 0 $wm_radius $wm_radius;
+      // HACK: disable rounded corners on menus because of border that ignores border-radius
+      border-radius: 0;
 
       > menuitem { transition: none; }
     }
