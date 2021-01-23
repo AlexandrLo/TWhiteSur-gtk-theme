@@ -177,6 +177,7 @@ $popop_menuitem_radius: $wm_radius - 4px;
 #appMenu {
   spinner-image: url("process-working.svg");
   spacing: 4px;
+  font-weight: 800;
 
   .label-shadow { color: transparent; }
 }
