@@ -1,7 +1,14 @@
-<img src="https://github.com/vinceliuice/Sierra-gtk-theme/blob/imgs/logo.png" alt="Logo" align="right" /> WhiteSur Gtk Theme
+<img src="https://github.com/vinceliuice/Sierra-gtk-theme/blob/imgs/logo.png" alt="Logo" align="right" /> TWhiteSur Gtk Theme
 ======
 
+TWhiteSur is a tweaked version of [WhiteSur original theme](https://github.com/vinceliuice/WhiteSur-gtk-theme).
 WhiteSur is a MacOS Big Sur like theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Pantheon, XFCE, Mate, etc.
+
+### Tweaks
+
+- Changed panel font weight to be more like Big Sur (bold for app title and regular for everything else, [Fildem](https://github.com/gonzaarcr/Fildem) global menu e.g.)
+- Disabled rounded corners for maximized windows
+- Removed dashed line at the edges of scrollable windows
 
 ## Requirements
 ### GTK2 Murrine engine requirements.
